@@ -73,6 +73,6 @@ if (hour >= 5 && hour <= 11) {
   timePlace.innerHTML = "ظهر بخیر";
 } else if (hour >= 17 && hour <= 19) {
   timePlace.innerHTML = "عصر بخیر";
-} else if(hour>=20 && hour<5) {
+} else if(hour>=19 || hour<5) {
   timePlace.innerHTML = "شب بخیر";
 }
