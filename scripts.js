@@ -67,12 +67,12 @@ function daySwitch() {
 }
 datePlace.innerHTML = "امروز" + daySwitch() + " " + "است ";
 
-if (hour > 5 && hour < 11) {
+if (hour >= 5 && hour <= 11) {
   timePlace.innerHTML = "صبح بخیر";
-} else if (hour > 11 && hour < 16) {
+} else if (hour >= 12 && hour <= 16) {
   timePlace.innerHTML = "ظهر بخیر";
-} else if (hour > 16 && hour < 20) {
+} else if (hour >= 17 && hour <= 19) {
   timePlace.innerHTML = "عصر بخیر";
-} else {
+} else if(hour>=20 && hour<5) {
   timePlace.innerHTML = "شب بخیر";
 }
