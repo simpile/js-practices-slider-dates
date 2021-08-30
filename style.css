@@ -1,18 +1,18 @@
-body{
+body {
   padding: 0;
-margin: 0;
+  margin: 0;
+  background-color: gainsboro;
 }
 .mySlider-container {
   width: 100%;
   height: 400px;
   position: relative;
-
 }
 
 .mySlider-icons {
   display: flex;
   justify-content: space-between;
-  margin: 0 1% ;
+  margin: 0 1%;
 
   color: rgba(0, 0, 0, 0.103);
 
@@ -21,48 +21,43 @@ margin: 0;
   transform: translateY(40px);
 }
 .mySlider-icon {
-
   background-color: rgba(243, 243, 243, 0.465);
   cursor: pointer;
-margin-top: 7%;
+  margin-top: 7%;
 }
-.mySlider-icon:hover{
+.mySlider-icon:hover {
   background-color: rgba(243, 243, 243, 0.808);
 }
 .mySlider-item {
   width: 100vw;
   position: absolute;
   top: 0%;
-left: 0%;
+  left: 0%;
   display: none;
-
-
 }
 .active {
   display: block;
 }
 
-.timePlace{
+.timePlace {
   direction: rtl;
-text-align: center;
-  font-size: 2.3vw;
+  text-align: center;
+  font-size: 2.2vw;
   position: absolute;
   top: 0%;
   right: 1%;
-background-color: rgba(240, 248, 255, 0.822);
-color: rgb(0, 0, 0);
-display: flex;
-
- 
+  background-color: rgba(240, 248, 255, 0.822);
+  color: rgb(0, 0, 0);
+  display: flex;
 }
 
 @media only screen and (max-width: 600px) {
-  .mySlider-icons{
-  transform: translateY(20px);
+  .mySlider-icons {
+    transform: translateY(20px);
   }
 }
 @media only screen and (max-width: 160px) {
-  .mySlider-icons{
+  .mySlider-icons {
     transform: translateY(5px);
-    }
   }
+}
