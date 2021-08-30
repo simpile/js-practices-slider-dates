@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>slider/simpile</title>
+</head>
+
+<body>
+    <div class="mySlider-container">
+        <div><img src="images/444-1600x400.jpg" width="1350px" alt="" class="mySlider-item "></div>
+        <div><img src="images/524-1600x400.jpg" width="1350px" alt="" class="mySlider-item"></div>
+        <div><img src="images/617-1600x400.jpg" width="1350px" alt="" class="mySlider-item"></div>
+        <div class="mySlider-icons">
+            <span onclick="nextFunc()" class="mySlider-icon"> &#x3c; </span>
+            <span onclick="prevFunc()" class="mySlider-icon"> &#x3e; </span>
+        </div>
+    </div>
+    <div class="timePlace">
+        <p  id="myTime"></p>
+        <p  id="myDate"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
