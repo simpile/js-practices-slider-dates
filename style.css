@@ -12,19 +12,19 @@ margin: 0;
 .mySlider-icons {
   display: flex;
   justify-content: space-between;
-  margin: 0 2% ;
+  margin: 0 1% ;
 
   color: rgba(0, 0, 0, 0.103);
 
   font-size: 4vw;
   font-weight: bolder;
-  transform: translateY(48px);
+  transform: translateY(40px);
 }
 .mySlider-icon {
 
   background-color: rgba(243, 243, 243, 0.465);
   cursor: pointer;
-margin-top: 2.5%;
+margin-top: 7%;
 }
 .mySlider-icon:hover{
   background-color: rgba(243, 243, 243, 0.808);
@@ -45,14 +45,24 @@ left: 0%;
 .timePlace{
   direction: rtl;
 text-align: center;
-  font-size: 1.5vw;
+  font-size: 2.3vw;
   position: absolute;
   top: 0%;
   right: 1%;
 background-color: rgba(240, 248, 255, 0.822);
 color: rgb(0, 0, 0);
 display: flex;
-/* margin: 2%; */
+
  
 }
 
+@media only screen and (max-width: 600px) {
+  .mySlider-icons{
+  transform: translateY(20px);
+  }
+}
+@media only screen and (max-width: 160px) {
+  .mySlider-icons{
+    transform: translateY(5px);
+    }
+  }
